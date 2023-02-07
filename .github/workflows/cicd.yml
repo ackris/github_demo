@@ -1,7 +1,9 @@
 name: "NodeCI"
+
 on:
-  push:
+  pull_request:
     branches: [main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
